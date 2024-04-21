@@ -3,12 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Mind & Body</title>
   </head>
   <body>
-    <section>
+    <section class="front-page">
+      <img class="hero" src="/assets/hero.png" alt="meditation" />
       <nav>
         <div class="logo">
           <img src="/assets/logo.svg" alt="Logo" />
@@ -20,12 +26,44 @@
           <a href="about.html">practice</a>
           <a href="portfolio.html">Classes</a>
         </div>
+        <svg
+          width="44"
+          height="18"
+          viewBox="0 0 44 18"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            class="line"
+            y1="1"
+            x2="44"
+            y2="1"
+            stroke="white"
+            stroke-width="2"
+          />
+          <line
+            class="line"
+            y1="9"
+            x2="27"
+            y2="9"
+            stroke="white"
+            stroke-width="2"
+          />
+          <line
+            class="line"
+            y1="17"
+            x2="11"
+            y2="17"
+            stroke="white"
+            stroke-width="2"
+          />
+        </svg>
       </nav>
       <div class="selling-point">
         <h2>Let your mind breathe</h2>
         <h3>
           limted acces ,pillesta pillesta and meditaand meditation the way you
-          feel
+          feel pillesta pillesta and pillesta pillesta and
         </h3>
         <div class="cats">
           <button class="cta-sec">Explore Classes</button>
@@ -33,6 +71,52 @@
         </div>
       </div>
     </section>
+    <section class="classes">
+      <div class="classes-descriptiom">
+        <h2>Classe tailored for you</h2>
+        <h3>Its time to heal your mind and body</h3>
+      </div>
+      <div class="videos">
+        <div class="pilates">
+          <h3>pilates</h3>
+          <video src="/assets/pilates.mp4"></video>
+        </div>
+        <div class="yoga">
+          <h3>yoga</h3>
+          <video src="/assets/yoga.mp4"></video>
+        </div>
+        <div class="meditation">
+          <h3>meditation</h3>
+          <video src="/assets/meditation.mp4"></video>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="our-story">
+        <h2>our story.....</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore alias,
+          iste, ad nobis tenetur facere temporibus neque eius quos adipisci
+          maiores quo voluptatem voluptates ex minima rem tempora soluta
+          corrupti nulla placeat facilis rerum ipsam? Deleniti sequi doloribus
+          vitae nam atque expedita dolorem, excepturi consequatur dolores veniam
+          perferendis, maxime corrupti numquam ipsum nemo in delectus esse
+        </p>
+      </div>
+      <img src="/assets/our-story.png" alt="" />
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="/script.js"></script>
   </body>
-  
 </html>
